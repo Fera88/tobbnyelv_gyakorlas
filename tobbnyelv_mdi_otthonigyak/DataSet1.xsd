@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FeliratElemek" msprop:Generator_TableClassName="FeliratElemekDataTable" msprop:Generator_TableVarName="tableFeliratElemek" msprop:Generator_TablePropName="FeliratElemek" msprop:Generator_RowDeletingName="FeliratElemekRowDeleting" msprop:Generator_RowChangingName="FeliratElemekRowChanging" msprop:Generator_RowEvHandlerName="FeliratElemekRowChangeEventHandler" msprop:Generator_RowDeletedName="FeliratElemekRowDeleted" msprop:Generator_UserTableName="FeliratElemek" msprop:Generator_RowChangedName="FeliratElemekRowChanged" msprop:Generator_RowEvArgName="FeliratElemekRowChangeEvent" msprop:Generator_RowClassName="FeliratElemekRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sorszam" msprop:Generator_ColumnVarNameInTable="columnSorszam" msprop:Generator_ColumnPropNameInRow="Sorszam" msprop:Generator_ColumnPropNameInTable="SorszamColumn" msprop:Generator_UserColumnName="Sorszam" type="xs:string" />
+              <xs:element name="Magyar" msprop:Generator_ColumnVarNameInTable="columnMagyar" msprop:Generator_ColumnPropNameInRow="Magyar" msprop:Generator_ColumnPropNameInTable="MagyarColumn" msprop:Generator_UserColumnName="Magyar" type="xs:string" minOccurs="0" />
+              <xs:element name="Angol" msprop:Generator_ColumnVarNameInTable="columnAngol" msprop:Generator_ColumnPropNameInRow="Angol" msprop:Generator_ColumnPropNameInTable="AngolColumn" msprop:Generator_UserColumnName="Angol" type="xs:string" minOccurs="0" />
+              <xs:element name="Nemet" msprop:Generator_ColumnVarNameInTable="columnNemet" msprop:Generator_ColumnPropNameInRow="Nemet" msprop:Generator_ColumnPropNameInTable="NemetColumn" msprop:Generator_UserColumnName="Nemet" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:FeliratElemek" />
+      <xs:field xpath="mstns:Sorszam" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
